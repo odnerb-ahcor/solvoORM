@@ -5,6 +5,9 @@ ORM para Aplicações Delphi
 O SolvoORM é baseado no SimpleORM criado por:
 [bittencourtthulio](https://github.com/bittencourtthulio/SimpleORM)</br>
 
+A diferença principal esta na liberdade que o programador tem de escolher o momente em que os dados serão inseridos no banco, ao inserir
+um novo registro com SolvoORM.Insert o objeto é apenas inserido na lista e não no banco. O mesmo só sera incluido no banco quando o comando
+SolvoORM.Save for chamado.
 O SolvoORM tem o Objetivo de facilitar suas implementações de CRUD, agilizando mais de 80% do seu processo de desenvolvimento de software.
 
 
